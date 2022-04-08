@@ -93,6 +93,10 @@ export const homeLinkData = [
         name: "聯合新聞網",
         url: "https://udn.com/news/index",
       },
+      {
+        name: "台視新聞台HD 24 小時",
+        url: "https://www.youtube.com/watch?v=xL0ch83RAK8&ab_channel=%E5%8F%B0%E8%A6%96%E6%96%B0%E8%81%9ETTVNEWS",
+      },
     ],
   },
   {
