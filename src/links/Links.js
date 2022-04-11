@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import { Link, Route, Routes } from "react-router-dom";
+import { WebsiteShower } from "./WebsiteShower";
 import { animeList } from "../config/linkData";
 import { Home } from "./Home";
-import { WebsiteShower } from "./WebsiteShower";
 
 const NavBar = styled.ul`
   width: 10%;

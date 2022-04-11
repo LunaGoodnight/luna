@@ -26,6 +26,10 @@ export const foodLinks = [
     name: "全聯",
     links: "https://www.pxmart.com.tw/",
   },
+  {
+    name: "呷七碗",
+    links: "https://www.7777777.com.tw/",
+  },
 ];
 
 export const doughnutsLinks = [

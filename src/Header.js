@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { Hamburger } from "./Hamburger";
 import { routeList } from "./config/routeList";
-import { MobileMenu } from "./MobileMenu";
+
 
 const HeaderStyle = styled.div`
   //background: #282c34;
