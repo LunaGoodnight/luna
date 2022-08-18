@@ -30,6 +30,16 @@ export const foodLinks = [
     name: "呷七碗",
     links: "https://www.7777777.com.tw/",
   },
+  {
+    name: "鮮拾",
+    links: "https://www.pickup.com.tw/",
+    description: "生鮮聰明買、鮮拾有好康，加入會員即贈$50購物金",
+  },
+  {
+    name: "悠活農村",
+    links: "https://www.yooho.com.tw/shop.php",
+    description: "有機蔬果、有機蔬菜宅配、安全無毒檢驗、小農銷售平台",
+  },
 ];
 
 export const doughnutsLinks = [
