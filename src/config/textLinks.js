@@ -40,6 +40,11 @@ export const foodLinks = [
     links: "https://www.yooho.com.tw/shop.php",
     description: "有機蔬果、有機蔬菜宅配、安全無毒檢驗、小農銷售平台",
   },
+  {
+    name: "VEGUE 唯素主義",
+    links: "https://www.vegue.me/",
+    description: "素食尚&素時尚潮流先鋒-集結國內外植系商品素食購物網",
+  },
 ];
 
 export const doughnutsLinks = [
