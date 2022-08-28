@@ -16,7 +16,12 @@ export const readLinks = [
     links: "https://news.readmoo.com/",
   },
 ];
-
+export const petLinks = [
+  {
+    name: "哈寵誌",
+    links: "https://www.hotpets.com.tw/",
+  },
+];
 export const foodLinks = [
   {
     name: "桂冠",
@@ -165,4 +170,5 @@ export const textLinks = [
   { title: "優惠", list: cheapLinks },
   { title: "甜甜圈", list: doughnutsLinks },
   { title: "閱讀", list: readLinks },
+  { title: "寵物", list: petLinks },
 ];

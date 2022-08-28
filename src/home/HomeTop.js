@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useMemo} from "react";
 import styled from "styled-components";
 import { getRandomInt } from "../utils/getRandomInt";
 
@@ -32,6 +32,8 @@ export const HomeTop = () => {
   const { data } = useQuery("quotes", () =>
     fetch("https://type.fit/api/quotes").then((res) => res.json())
   );
+
+
 
   return (
     <Wrapper>
