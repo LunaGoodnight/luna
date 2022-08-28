@@ -1,4 +1,5 @@
 import React from "react";
+import AdSense from "react-adsense";
 import styled from "styled-components";
 import { homeLinkData } from "../config/homeLinkData";
 
@@ -34,12 +35,14 @@ const LinkList = styled.ul`
   }
 `;
 
+
 const LinksBlock = styled.div`
   width: 15rem;
   @media only screen and (max-width: 850px) {
     width: 50%;
   }
 `;
+
 export const HomeCenter = () => {
   return (
     <CenterStyle>
