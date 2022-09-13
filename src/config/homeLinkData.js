@@ -48,6 +48,10 @@ export const homeLinkData = [
         url: "https://www.toy-people.com/denden",
       },
       {
+        name: "ELLE Taiwan",
+        url: "https://www.elle.com/tw/",
+      },
+      {
         name: "もしもしにっぽん",
         url: "https://www.moshimoshi-nippon.jp/zh-hant/",
       },

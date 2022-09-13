@@ -16,6 +16,7 @@ export const readLinks = [
     links: "https://news.readmoo.com/",
   },
 ];
+
 export const shopLinks = [
   {
     name: "7-ELEVEN",
@@ -30,6 +31,12 @@ export const womenClothesLinks = [
   {
     name: "MAJOR MADE.",
     links: "https://www.major-made.com/Shop/",
+  },
+];
+export const petLinks = [
+  {
+    name: "哈寵誌",
+    links: "https://www.hotpets.com.tw/",
   },
 ];
 export const foodLinks = [
@@ -180,6 +187,9 @@ export const textLinks = [
   { title: "優惠", list: cheapLinks },
   { title: "甜甜圈", list: doughnutsLinks },
   { title: "閱讀", list: readLinks },
+
   { title: "商店", list: shopLinks },
   { title: "女裝", list: womenClothesLinks },
+
+  { title: "寵物", list: petLinks },
 ];

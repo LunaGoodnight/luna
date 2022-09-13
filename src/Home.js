@@ -2,6 +2,7 @@ import styled from "styled-components";
 import React from "react";
 import { HomeTop } from "./home/HomeTop";
 import { HomeCenter } from "./home/HomeCenter";
+import { HomeFooter } from "./home/HomeFooter";
 
 const HomeStyle = styled.div`
   display: flex;
@@ -14,6 +15,7 @@ export const Home = () => {
     <HomeStyle>
       <HomeTop />
       <HomeCenter />
+      <HomeFooter />
     </HomeStyle>
   );
 };
