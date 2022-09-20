@@ -67,6 +67,11 @@ export const foodLinks = [
     links: "https://www.vegue.me/",
     description: "素食尚&素時尚潮流先鋒-集結國內外植系商品素食購物網",
   },
+  {
+    name: "新合發鯖魚",
+    links: "https://www.freshmackerel.com/",
+    description: "",
+  },
 ];
 
 export const doughnutsLinks = [
