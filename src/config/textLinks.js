@@ -3,6 +3,12 @@ export const travelLinks = [
     name: "即時影像監視器",
     links: "https://tw.live/",
   },
+  {
+    category: "travel",
+    name: "雄獅旅遊",
+    links: "https://www.liontravel.com/category/zh-tw/index",
+    description: "跟團旅遊、機票、訂房、自由行、票券當地遊",
+  },
 ];
 export const bagLinks = [
   {
@@ -31,6 +37,10 @@ export const womenClothesLinks = [
   {
     name: "MAJOR MADE.",
     links: "https://www.major-made.com/Shop/",
+  },
+  {
+    name: "SHEIN購物臺灣",
+    links: "https://www.shein.tw/",
   },
 ];
 export const petLinks = [
@@ -176,6 +186,8 @@ export const cruisesLinks = [
     links: "https://www.fantasy-tours.com/Travel/Content?ac=C&cn=EDR",
   },
 ];
+
+
 // TODO 考慮把網紅清單也加進來
 
 export const textLinks = [
