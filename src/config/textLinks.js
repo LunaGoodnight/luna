@@ -139,6 +139,13 @@ export const blogLinks = [
   },
 ];
 
+export const eventLinks = [
+  {
+    name: "伊貝特報名網",
+    links: "https://bao-ming.com/eb/index",
+    description: "",
+  },
+];
 export const japanLinks = [
   {
     name: "樂吃購！日本",
@@ -209,4 +216,5 @@ export const textLinks = [
   { title: "女裝", list: womenClothesLinks },
 
   { title: "寵物", list: petLinks },
+  { title: "活動", list: eventLinks },
 ];
