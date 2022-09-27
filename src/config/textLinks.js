@@ -146,6 +146,14 @@ export const eventLinks = [
     description: "",
   },
 ];
+
+export const boardGameLinks = [
+  {
+    name: "BoardGameGeek",
+    links: "https://boardgamegeek.com/",
+    description: "Gaming Unplugged Since 2000",
+  },
+];
 export const japanLinks = [
   {
     name: "樂吃購！日本",
@@ -217,4 +225,5 @@ export const textLinks = [
 
   { title: "寵物", list: petLinks },
   { title: "活動", list: eventLinks },
+  { title: "桌遊", list: boardGameLinks },
 ];
