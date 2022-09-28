@@ -1,5 +1,4 @@
 import React from "react";
-import AdSense from "react-adsense";
 import styled from "styled-components";
 import { homeLinkData } from "../config/homeLinkData";
 

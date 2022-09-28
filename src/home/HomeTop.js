@@ -1,4 +1,4 @@
-import React, {useMemo} from "react";
+import React, { useMemo } from "react";
 import styled from "styled-components";
 import { getRandomInt } from "../utils/getRandomInt";
 
@@ -28,19 +28,24 @@ const ImagePart = styled.div`
   }
 `;
 
+const getQuote = (data) => {
+  if (data) {
+    return data[getRandomInt(data.length)].text;
+  }
+  return null;
+};
 export const HomeTop = () => {
   const { data } = useQuery("quotes", () =>
     fetch("https://type.fit/api/quotes").then((res) => res.json())
   );
-
-
+  const cacheData = useMemo(() => getQuote(data), [data]);
 
   return (
     <Wrapper>
       <HomeTopStyle>
         <ImagePart>
           <img src="https://picsum.photos/600/200" alt="picsum" />
-          <div>{data ? data[getRandomInt(data.length)].text : null}</div>
+          <div>{data ? cacheData : null}</div>
         </ImagePart>
         <MoneyPart />
       </HomeTopStyle>
