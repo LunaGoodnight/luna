@@ -42,6 +42,11 @@ export const womenClothesLinks = [
     name: "SHEIN購物臺灣",
     links: "https://www.shein.tw/",
   },
+  {
+    name: "MIUSTAR",
+    links: "https://www.miu-star.com.tw/",
+    description: "簡約休閒新時尚平價女裝",
+  },
 ];
 export const petLinks = [
   {
@@ -81,6 +86,11 @@ export const foodLinks = [
     name: "新合發鯖魚",
     links: "https://www.freshmackerel.com/",
     description: "",
+  },
+  {
+    name: "氣炸人生有限公司",
+    links: "https://www.airfryerlife.com.tw/",
+    description: "氣炸鍋肉品專家+氣炸古早味豬排+新鮮美味便利",
   },
 ];
 
@@ -201,7 +211,6 @@ export const cruisesLinks = [
     links: "https://www.fantasy-tours.com/Travel/Content?ac=C&cn=EDR",
   },
 ];
-
 
 // TODO 考慮把網紅清單也加進來
 
