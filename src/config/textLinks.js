@@ -185,6 +185,12 @@ export const japanLinks = [
 export const novelLinks = [
   {
     category: "novel",
+    name: "讀創故事",
+    links: "https://story.udn.com/dcstore/Index.do",
+    description: "Life is a story！自由創作、自在閱讀",
+  },
+  {
+    category: "novel",
     name: "讀客文學",
     links: "https://mmstory.com/",
   },
@@ -192,6 +198,11 @@ export const novelLinks = [
     category: "novel",
     name: "鏡文學",
     links: "https://mirrorfiction.com/",
+  },
+  {
+    category: "novel",
+    name: "愛創作中文網",
+    links: "http://www.fhomebook.com/",
   },
 ];
 export const cruisesLinks = [
