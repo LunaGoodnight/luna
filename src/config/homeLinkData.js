@@ -14,6 +14,10 @@ export const homeLinkData = [
         name: "OpenSea",
         url: "https://opensea.io/",
       },
+      {
+        name: "星際迷航",
+        url: "https://pinkjelly.org/",
+      },
     ],
   },
   {
