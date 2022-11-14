@@ -47,6 +47,11 @@ export const womenClothesLinks = [
     links: "https://www.miu-star.com.tw/",
     description: "簡約休閒新時尚平價女裝",
   },
+  {
+    name: "Roots",
+    links: "https://www.roots.com.tw/",
+    description: "Roots 台灣官方網站",
+  },
 ];
 export const petLinks = [
   {
