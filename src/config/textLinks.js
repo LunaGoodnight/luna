@@ -59,6 +59,12 @@ export const petLinks = [
     links: "https://www.hotpets.com.tw/",
   },
 ];
+export const presentLinks = [
+  {
+    name: "波希熊",
+    links: "https://www.posykuma.com/",
+  },
+];
 export const foodLinks = [
   {
     name: "桂冠",
@@ -251,4 +257,5 @@ export const textLinks = [
   { title: "寵物", list: petLinks },
   { title: "活動", list: eventLinks },
   { title: "桌遊", list: boardGameLinks },
+  { title: "禮品", list: presentLinks },
 ];
