@@ -103,6 +103,11 @@ export const foodLinks = [
     links: "https://www.airfryerlife.com.tw/",
     description: "氣炸鍋肉品專家+氣炸古早味豬排+新鮮美味便利",
   },
+  {
+    name: "小磨坊",
+    links: "https://www.tomax.com.tw/",
+    description: "美味．值得玩味",
+  },
 ];
 
 export const doughnutsLinks = [
