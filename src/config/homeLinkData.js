@@ -88,6 +88,10 @@ export const homeLinkData = [
         name: "LiTV",
         url: "https://www.litv.tv/",
       },
+      {
+        name: "iQIYI",
+        url: "https://www.iq.com/",
+      },
     ],
   },
   {
