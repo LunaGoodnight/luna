@@ -132,6 +132,10 @@ export const homeLinkData = [
         url: "https://www.books.com.tw/",
       },
       {
+        name: "誠品線上",
+        url: "https://www.eslite.com/",
+      },
+      {
         name: "Amazon",
         url: "https://www.amazon.com/",
       },
