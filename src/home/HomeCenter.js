@@ -56,7 +56,7 @@ export const HomeCenter = () => {
                   const { name, url } = item;
                   return (
                     <li key={ind}>
-                      <a href={url} target="_blank">
+                      <a href={url} target="_blank" rel="noreferrer">
                         {name}
                       </a>
                     </li>

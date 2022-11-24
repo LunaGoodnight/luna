@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { routeList } from "./config/routeList";
 import { useDispatch, useSelector } from "react-redux";
 import React from "react";

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components";
 import { numberSeparator } from "../utils/numberSeparator";
 import { ReactComponent as BitcoinSvg } from "../styles/images/bitcoin.svg";
@@ -35,11 +35,11 @@ export const BitcoinPart = () => {
       "https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=USD,TWD"
     ).then((res) => res.json())
   );
-  const data = useQuery("weather", () =>
-    fetch("https://catsheue-001-site2.itempurl.com/weatherforecast").then(
-      (res) => res.json()
-    )
-  );
+  // const data = useQuery("weather", () =>
+  //   fetch("https://catsheue-001-site2.itempurl.com/weatherforecast").then(
+  //     (res) => res.json()
+  //   )
+  // );
   return (
     <BitcoinSection>
       <BitcoinSvg />
