@@ -69,7 +69,7 @@ export const CurrencyConverter = () => {
       } = currencyData;
       setTwd(Number(usd * TWD));
     }
-  }, [usd]);
+  }, [usd, currencyData]);
 
   return (
     <ConverterStyle>

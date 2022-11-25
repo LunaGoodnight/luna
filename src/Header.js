@@ -80,4 +80,3 @@ export const Header = () => {
   );
 };
 
-export default {};

@@ -2,9 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import { Link, Route, Routes } from "react-router-dom";
 import { ContentCenterWrapper } from "../styles/appStyleConfig";
-import { useQuery } from "react-query";
-import { Eat } from "./Eat";
 import { English } from "./English";
+import { Eat } from "./Eat";
 
 const TopBlock = styled.div`
   padding: 1rem 0;
