@@ -237,6 +237,11 @@ export const cruisesLinks = [
     name: "探索夢號",
     links: "https://www.fantasy-tours.com/Travel/Content?ac=C&cn=EDR",
   },
+  {
+    category: "cruises",
+    name: "公主遊輪",
+    links: "https://www.princesscruises.com.tw/",
+  },
 ];
 
 // TODO 考慮把網紅清單也加進來
