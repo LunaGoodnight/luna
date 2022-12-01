@@ -164,6 +164,13 @@ export const blogLinks = [
     description: "青青小樹。多肉萌",
   },
 ];
+export const farmLinks = [
+  {
+    name: "臺東網路農場",
+    links: "https://efarmer.taitung.gov.tw/zh-tw",
+    description: "",
+  },
+];
 
 export const eventLinks = [
   {
@@ -268,4 +275,5 @@ export const textLinks = [
   { title: "活動", list: eventLinks },
   { title: "桌遊", list: boardGameLinks },
   { title: "禮品", list: presentLinks },
+  { title: "農場", list: farmLinks },
 ];
