@@ -187,6 +187,14 @@ export const boardGameLinks = [
     description: "Gaming Unplugged Since 2000",
   },
 ];
+
+export const wineLinks = [
+  {
+    name: "曲禾酒莊",
+    links: "https://quhe-goods.blogspot.com/",
+    description: "",
+  },
+];
 export const japanLinks = [
   {
     name: "樂吃購！日本",
@@ -276,4 +284,5 @@ export const textLinks = [
   { title: "桌遊", list: boardGameLinks },
   { title: "禮品", list: presentLinks },
   { title: "農場", list: farmLinks },
+  { title: "酒酒", list: wineLinks },
 ];
