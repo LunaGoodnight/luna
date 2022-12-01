@@ -194,6 +194,16 @@ export const wineLinks = [
     links: "https://quhe-goods.blogspot.com/",
     description: "",
   },
+  {
+    name: "一飲商店",
+    links: "https://shop.1shot.tw/",
+    description: "",
+  },
+  {
+    name: "金門皇家酒廠",
+    links: "https://www.kinmenroyal.com.tw/",
+    description: "",
+  },
 ];
 export const japanLinks = [
   {

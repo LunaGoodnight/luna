@@ -63,6 +63,11 @@ export const homeLinkData = [
         name: "Bella.tw儂儂",
         url: "https://www.bella.tw/",
       },
+      {
+        name: "ZEEK玩家誌",
+        url: "https://www.bella.tw/",
+        description: "《ZEEK玩家誌》介紹時下3C酷品、汽車試駕、玩具遊戲、電影音樂、手機評測、新品動手玩、最新趨勢……等，它是一個時尚科技多元媒體，內容涵蓋光陽機車 / GOGORO / 福斯商旅 / SUZUKI / XIAOMI 小米 米家 紅米 / HUAWEI 華為 / APPLE 蘋果 / OPPO / HONDA / 台灣賓士 / TAOBAO 淘寶 / MARVEL 漫威 / KKBOX / SPOTIFY / STARBUCKS 星巴克 / UNIQLO 優衣庫。歡迎廠商洽詢我們，進行撰文、評測、贊助、廣宣、廣告刊登……等合作。"
+      },
     ],
   },
   {
