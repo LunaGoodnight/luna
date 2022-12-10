@@ -71,6 +71,10 @@ export const foodLinks = [
     links: "https://www.laurel.com.tw/",
   },
   {
+    name: "康寶",
+    links: "https://www.knorr.com/tw/home.html",
+  },
+  {
     name: "全聯",
     links: "https://www.pxmart.com.tw/",
   },
