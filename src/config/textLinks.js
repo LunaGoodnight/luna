@@ -59,6 +59,13 @@ export const petLinks = [
     links: "https://www.hotpets.com.tw/",
   },
 ];
+
+export const fundLinks = [
+  {
+    name: "挖貝",
+    links: "https://wabay.tw/",
+  },
+];
 export const presentLinks = [
   {
     name: "波希熊",
@@ -299,4 +306,5 @@ export const textLinks = [
   { title: "禮品", list: presentLinks },
   { title: "農場", list: farmLinks },
   { title: "酒酒", list: wineLinks },
+  { title: "集資", list: fundLinks },
 ];
