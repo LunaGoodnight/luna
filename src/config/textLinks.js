@@ -219,7 +219,13 @@ export const boardGameLinks = [
     description: "Gaming Unplugged Since 2000",
   },
 ];
-
+export const newsLinks = [
+  {
+    name: "卡優新聞網",
+    links: "https://www.cardu.com.tw/",
+    description: "理財、消費、支付卡資訊網站",
+  },
+];
 export const wineLinks = [
   {
     name: "曲禾酒莊",
@@ -328,4 +334,5 @@ export const textLinks = [
   { title: "農場", list: farmLinks },
   { title: "酒酒", list: wineLinks },
   { title: "集資", list: fundLinks },
+  { title: "新聞", list: newsLinks}
 ];
