@@ -71,7 +71,12 @@ export const fundLinks = [
     name: "挖貝",
     links: "https://wabay.tw/",
   },
+  {
+    name: "嘖嘖 zeczec",
+    links: "https://www.zeczec.com/",
+  },
 ];
+
 export const presentLinks = [
   {
     name: "波希熊",
