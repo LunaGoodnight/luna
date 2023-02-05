@@ -334,5 +334,5 @@ export const textLinks = [
   { title: "農場", list: farmLinks },
   { title: "酒酒", list: wineLinks },
   { title: "集資", list: fundLinks },
-  { title: "新聞", list: newsLinks}
+  { title: "新聞", list: newsLinks },
 ];
