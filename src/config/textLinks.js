@@ -9,6 +9,12 @@ export const travelLinks = [
     links: "https://www.liontravel.com/category/zh-tw/index",
     description: "跟團旅遊、機票、訂房、自由行、票券當地遊",
   },
+  {
+    category: "travel",
+    name: "東南旅遊",
+    links: "https://www.settour.com.tw/index.html",
+    description: "國內外跟團、機票訂房、自由行、票券體驗",
+  },
 ];
 export const bagLinks = [
   {
@@ -65,6 +71,18 @@ export const petLinks = [
     links: "https://www.hotpets.com.tw/",
   },
 ];
+
+export const fundLinks = [
+  {
+    name: "挖貝",
+    links: "https://wabay.tw/",
+  },
+  {
+    name: "嘖嘖 zeczec",
+    links: "https://www.zeczec.com/",
+  },
+];
+
 export const presentLinks = [
   {
     name: "波希熊",
@@ -75,6 +93,10 @@ export const foodLinks = [
   {
     name: "桂冠",
     links: "https://www.laurel.com.tw/",
+  },
+  {
+    name: "康寶",
+    links: "https://www.knorr.com/tw/home.html",
   },
   {
     name: "全聯",
@@ -153,6 +175,16 @@ export const animeLinks = [
     links: "https://dora-world.com/",
     description: "ドラえもんチャンネル, ドラえもんの最新情報をお届けします。",
   },
+  {
+    name: "哆啦A夢台灣官網",
+    links: "https://www.dora-world.com.tw/",
+    description: "",
+  },
+  {
+    name: "哆啦A夢中文網",
+    links: "https://chinesedora.com/",
+    description: "中文最大哆啦A夢入口網站",
+  },
 ];
 
 export const cheapLinks = [
@@ -193,7 +225,13 @@ export const boardGameLinks = [
     description: "Gaming Unplugged Since 2000",
   },
 ];
-
+export const newsLinks = [
+  {
+    name: "卡優新聞網",
+    links: "https://www.cardu.com.tw/",
+    description: "理財、消費、支付卡資訊網站",
+  },
+];
 export const wineLinks = [
   {
     name: "曲禾酒莊",
@@ -302,4 +340,6 @@ export const textLinks = [
   { title: "農場", list: farmLinks },
   { title: "酒酒", list: wineLinks },
   { title: "生活品味", list: lifeStyleLinks },
+  { title: "集資", list: fundLinks },
+  { title: "新聞", list: newsLinks },
 ];

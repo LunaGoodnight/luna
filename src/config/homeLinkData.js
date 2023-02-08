@@ -127,6 +127,10 @@ export const homeLinkData = [
         name: "Udemy",
         url: "https://www.udemy.com/",
       },
+      {
+        name: "庭喵的出包星球",
+        url: "https://tingmeow.pinkjelly.org/",
+      },
     ],
   },
   {
