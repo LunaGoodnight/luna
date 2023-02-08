@@ -22,6 +22,12 @@ export const readLinks = [
     links: "https://news.readmoo.com/",
   },
 ];
+export const lifeStyleLinks = [
+  {
+    name: "500輯",
+    links: "https://500times.udn.com/wtimes/index",
+  },
+];
 
 export const shopLinks = [
   {
@@ -295,4 +301,5 @@ export const textLinks = [
   { title: "禮品", list: presentLinks },
   { title: "農場", list: farmLinks },
   { title: "酒酒", list: wineLinks },
+  { title: "生活品味", list: lifeStyleLinks },
 ];
