@@ -103,6 +103,10 @@ export const homeLinkData = [
     title: "News",
     sites: [
       {
+        name: "經濟日報",
+        url: "https://money.udn.com/money/index",
+      },
+      {
         name: "中央社 CNA",
         url: "https://www.cna.com.tw/",
       },
