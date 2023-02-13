@@ -265,6 +265,11 @@ export const japanLinks = [
     links: "https://www.toy-people.com/denden",
     description: "",
   },
+  {
+    name: "窩日本 Wow-Japan",
+    links: "https://wow-japan.com/",
+    description: "在地人陪你一起窩日本 自由行私房景點大公開",
+  },
 ];
 
 export const novelLinks = [
