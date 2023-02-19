@@ -318,6 +318,13 @@ export const cruisesLinks = [
   },
 ];
 
+export const scentLinks = [
+  {
+    name: "氣味圖書館scentlibrary",
+    links: "https://www.scentlibrary.com.tw/",
+  },
+];
+
 // TODO 考慮把網紅清單也加進來
 
 export const textLinks = [
@@ -347,4 +354,5 @@ export const textLinks = [
   { title: "生活品味", list: lifeStyleLinks },
   { title: "集資", list: fundLinks },
   { title: "新聞", list: newsLinks },
+  { title: "香香", list: scentLinks },
 ];
