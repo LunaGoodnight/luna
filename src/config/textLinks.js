@@ -324,7 +324,13 @@ export const scentLinks = [
     links: "https://www.scentlibrary.com.tw/",
   },
 ];
-
+export const toyLinks = [
+  {
+    name: "Meccha Japan",
+    links: "https://meccha-japan.com/en/",
+    description: "Best Japanese Goods from Japan",
+  },
+];
 // TODO 考慮把網紅清單也加進來
 
 export const textLinks = [
@@ -341,10 +347,9 @@ export const textLinks = [
   { title: "優惠", list: cheapLinks },
   { title: "甜甜圈", list: doughnutsLinks },
   { title: "閱讀", list: readLinks },
-
   { title: "商店", list: shopLinks },
   { title: "女裝", list: womenClothesLinks },
-
+  { title: "玩具", list: toyLinks },
   { title: "寵物", list: petLinks },
   { title: "活動", list: eventLinks },
   { title: "桌遊", list: boardGameLinks },
