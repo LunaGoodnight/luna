@@ -217,6 +217,13 @@ export const eventLinks = [
     description: "",
   },
 ];
+export const teaLinks = [
+  {
+    name: "Teapot",
+    links: "https://www.teapot.com.hk/",
+    description: "宜兴紫砂壶套装，紫砂白茶壶店",
+  },
+];
 
 export const boardGameLinks = [
   {
@@ -360,4 +367,5 @@ export const textLinks = [
   { title: "集資", list: fundLinks },
   { title: "新聞", list: newsLinks },
   { title: "香香", list: scentLinks },
+  { title: "茶具", list: teaLinks },
 ];
