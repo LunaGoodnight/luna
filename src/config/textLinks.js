@@ -72,6 +72,14 @@ export const petLinks = [
   },
 ];
 
+export const householdGoodsLinks = [
+  {
+    name: "品川製物 Life Supplier",
+    links: "https://www.lifesupplier.com.tw/",
+    description: "居家生活用品",
+  },
+];
+
 export const fundLinks = [
   {
     name: "挖貝",
@@ -364,6 +372,7 @@ export const textLinks = [
   { title: "農場", list: farmLinks },
   { title: "酒酒", list: wineLinks },
   { title: "生活品味", list: lifeStyleLinks },
+  { title: "生活用品", list: householdGoodsLinks },
   { title: "集資", list: fundLinks },
   { title: "新聞", list: newsLinks },
   { title: "香香", list: scentLinks },
