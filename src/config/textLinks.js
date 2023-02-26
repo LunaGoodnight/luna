@@ -22,6 +22,15 @@ export const bagLinks = [
     links: "https://www.kiiwio.com/",
   },
 ];
+
+export const publishLinks = [
+  {
+    name: "九歌出版文學誌",
+    links: "https://www.chiuko.com.tw/",
+    description: "健行出版社、天培出版社",
+  },
+];
+
 export const readLinks = [
   {
     name: "Readmoo閱讀最前線",
@@ -350,6 +359,7 @@ export const toyLinks = [
 
 export const textLinks = [
   { title: "吃的", list: foodLinks },
+  { title: "出版", list: publishLinks },
   { title: "飾品", list: accessoriesLinks },
   { title: "動畫", list: animeLinks },
   { title: "部落格", list: blogLinks },
