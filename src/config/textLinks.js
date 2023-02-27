@@ -4,6 +4,10 @@ export const travelLinks = [
     links: "https://tw.live/",
   },
   {
+    name: "臺北旅遊網",
+    links: "https://www.travel.taipei/",
+  },
+  {
     category: "travel",
     name: "雄獅旅遊",
     links: "https://www.liontravel.com/category/zh-tw/index",
