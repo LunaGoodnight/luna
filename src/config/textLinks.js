@@ -4,6 +4,7 @@ export const travelLinks = [
     links: "https://tw.live/",
   },
   {
+    category: "travel",
     name: "臺北旅遊網",
     links: "https://www.travel.taipei/",
   },
