@@ -32,6 +32,11 @@ export const trendLinks = [
     name: "Our World in Data",
     links: "https://ourworldindata.org/",
   },
+  {
+    name: "Worldometer",
+    links: "https://www.worldometers.info/",
+    description: "real time world statistics",
+  },
 ];
 
 export const publishLinks = [
