@@ -27,6 +27,12 @@ export const bagLinks = [
     links: "https://www.kiiwio.com/",
   },
 ];
+export const trendLinks = [
+  {
+    name: "Our World in Data",
+    links: "https://ourworldindata.org/",
+  },
+];
 
 export const publishLinks = [
   {
@@ -392,4 +398,5 @@ export const textLinks = [
   { title: "新聞", list: newsLinks },
   { title: "香香", list: scentLinks },
   { title: "茶具", list: teaLinks },
+  { title: "趨勢", list: trendLinks },
 ];
