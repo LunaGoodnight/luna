@@ -310,6 +310,11 @@ export const japanLinks = [
     links: "https://wow-japan.com/",
     description: "在地人陪你一起窩日本 自由行私房景點大公開",
   },
+  {
+    name: "tsunagu Japan 繫日本",
+    links: "https://www.tsunagujapan.com/zh-hant/",
+    description: "日本旅遊資訊網",
+  },
 ];
 
 export const novelLinks = [
