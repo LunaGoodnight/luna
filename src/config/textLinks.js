@@ -58,6 +58,11 @@ export const lifeStyleLinks = [
     name: "500輯",
     links: "https://500times.udn.com/wtimes/index",
   },
+  {
+    name: "JUKSY 街星",
+    links: "https://www.juksy.com/",
+    description: "",
+  },
 ];
 
 export const shopLinks = [
@@ -376,6 +381,7 @@ export const toyLinks = [
     description: "Best Japanese Goods from Japan",
   },
 ];
+
 // TODO 考慮把網紅清單也加進來
 
 export const textLinks = [
