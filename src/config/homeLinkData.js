@@ -61,6 +61,11 @@ export const homeLinkData = [
         description: "全新女性內容社群平台",
       },
       {
+        name: "A Day Magazine",
+        url: "https://www.adaymag.com/tw",
+        description: "香港．台灣．時尚生活雜誌",
+      },
+      {
         name: "もしもしにっぽん",
         url: "https://www.moshimoshi-nippon.jp/zh-hant/",
       },
