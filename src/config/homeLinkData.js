@@ -28,6 +28,10 @@ export const homeLinkData = [
         url: "https://www.niusnews.com/",
       },
       {
+        name: "ナタリー",
+        url: "https://natalie.mu/",
+      },
+      {
         name: "PopDaily 波波黛莉",
         url: "https://www.popdaily.com.tw/",
       },
