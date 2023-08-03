@@ -20,6 +20,12 @@ export const travelLinks = [
     links: "https://www.settour.com.tw/index.html",
     description: "國內外跟團、機票訂房、自由行、票券體驗",
   },
+  {
+    category: "travel",
+    name: "巨匠旅遊",
+    links: "https://www.artisan.com.tw/",
+    description: "凱旋旅行社(巨匠旅遊)｜Artisan Tour",
+  },
 ];
 export const bagLinks = [
   {
