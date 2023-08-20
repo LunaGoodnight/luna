@@ -94,6 +94,12 @@ export const homeLinkData = [
         url: "https://woman.udn.com/woman/index",
         description: "udn 女子漾 | 聯合新聞網",
       },
+      {
+        name: "勇氣酵母",
+        url: "https://www.bb705.life/",
+        description:
+          "勇氣酵母 ❉ 一點酵母讓勇氣充滿生活｜戶外｜旅行｜生活｜學習",
+      },
     ],
   },
   {
