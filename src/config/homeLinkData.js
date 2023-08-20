@@ -89,6 +89,11 @@ export const homeLinkData = [
         description:
           "GQ.com.tw 男人,時尚,生活,有型有款 引領潮流第一站 | GQ Taiwan/ GOGORO / 福斯商旅 / SUZUKI / XIAOMI 小米 米家 紅米 / HUAWEI 華為 / APPLE 蘋果 / OPPO / HONDA / 台灣賓士 / TAOBAO 淘寶 / MARVEL 漫威 / KKBOX / SPOTIFY / STARBUCKS 星巴克 / UNIQLO 優衣庫。歡迎廠商洽詢我們，進行撰文、評測、贊助、廣宣、廣告刊登……等合作。",
       },
+      {
+        name: "udn 女子漾",
+        url: "https://woman.udn.com/woman/index",
+        description: "udn 女子漾 | 聯合新聞網",
+      },
     ],
   },
   {
