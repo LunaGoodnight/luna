@@ -26,6 +26,12 @@ export const travelLinks = [
     links: "https://www.artisan.com.tw/",
     description: "凱旋旅行社(巨匠旅遊)｜Artisan Tour",
   },
+  {
+    category: "travel",
+    name: "華友旅行社MITRAVEL",
+    links: "https://www.mitravel.com.tw/index.php",
+    description: "華友旅行社MITRAVEL | 浪漫歐洲蜜月團 蜜月旅行推薦",
+  },
 ];
 export const bagLinks = [
   {

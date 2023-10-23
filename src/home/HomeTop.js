@@ -47,7 +47,6 @@ export const HomeTop = () => {
           <img src="https://picsum.photos/600/200" alt="picsum" />
           <div>{data ? cacheData : null}</div>
         </ImagePart>
-        <MoneyPart />
       </HomeTopStyle>
     </Wrapper>
   );
