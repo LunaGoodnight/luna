@@ -119,6 +119,10 @@ export const homeLinkData = [
         url: "https://www.kktv.me/",
       },
       {
+        name: "WeTV",
+        url: "https://wetv.vip/",
+      },
+      {
         name: "Netflix",
         url: "https://www.netflix.com/",
       },
