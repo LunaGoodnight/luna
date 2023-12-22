@@ -32,6 +32,24 @@ export const travelLinks = [
     links: "https://www.mitravel.com.tw/index.php",
     description: "華友旅行社MITRAVEL | 浪漫歐洲蜜月團 蜜月旅行推薦",
   },
+  {
+    category: "travel",
+    name: "喜鴻假期",
+    links: "https://www.besttour.com.tw/e_web/",
+    description: "",
+  },
+  {
+    category: "travel",
+    name: "ezTravel易遊網",
+    links: "https://www.eztravel.com.tw/",
+    description: "ezTravel易遊網 | 易遊世界．觸手可及",
+  },
+  {
+    category: "travel",
+    name: "五福旅遊 Lifetour",
+    links: "https://www.lifetour.com.tw/",
+    description: "",
+  },
 ];
 export const bagLinks = [
   {
