@@ -22,11 +22,17 @@ const HomeTopStyle = styled.div`
 `;
 
 const ImagePart = styled.div`
-  width: 600px;
-  height: 200px;
+  width: 60rem;
+  image {
+    width: 600px;
+    height: 200px;
+  }
   @media only screen and (max-width: 850px) {
     width: 100%;
-    height: auto;
+    image {
+      max-width: 100%;
+      height: auto;
+    }
   }
 `;
 
