@@ -23,13 +23,13 @@ const HomeTopStyle = styled.div`
 
 const ImagePart = styled.div`
   width: 60rem;
-  image {
+  img {
     width: 600px;
     height: 200px;
   }
   @media only screen and (max-width: 850px) {
     width: 100%;
-    image {
+    img {
       max-width: 100%;
       height: auto;
     }
