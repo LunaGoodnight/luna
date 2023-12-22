@@ -50,6 +50,12 @@ export const travelLinks = [
     links: "https://www.lifetour.com.tw/",
     description: "",
   },
+  {
+    category: "travel",
+    name: "燦星旅遊",
+    links: "https://www.startravel.com.tw/",
+    description: "Star of Your Life",
+  },
 ];
 export const bagLinks = [
   {
