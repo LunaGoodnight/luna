@@ -21,20 +21,16 @@ const HomeTopStyle = styled.div`
   }
 `;
 
-const ImagePart = styled.div`
-  width: 60rem;
-  img {
-    width: 600px;
-    height: 200px;
-  }
+const WrapImage = styled.div`
+  width: 600px;
+  height: 200px;
+
   @media only screen and (max-width: 850px) {
     width: 100%;
-    img {
-      max-width: 100%;
-      height: auto;
-    }
+    height: auto;
   }
 `;
+const ImagePart = styled.div``;
 
 const getQuote = (data) => {
   if (data) {
@@ -52,7 +48,9 @@ export const HomeTop = () => {
     <Wrapper>
       <HomeTopStyle>
         <ImagePart>
-          <img src="https://picsum.photos/600/200" alt="picsum" />
+          <WrapImage>
+            <img src="https://picsum.photos/600/200" alt="picsum" />
+          </WrapImage>
           <div>{data ? cacheData : null}</div>
         </ImagePart>
       </HomeTopStyle>
