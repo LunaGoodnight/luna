@@ -208,6 +208,19 @@ export const homeLinkData = [
     ],
   },
   {
+    title: "Music",
+    sites: [
+      {
+        name: "marumaru",
+        url: "https://www.jpmarumaru.com/tw/index.asp",
+      },
+      {
+        name: "Youtube",
+        url: "https://www.youtube.com/",
+      },
+    ],
+  },
+  {
     title: "Event",
     sites: [
       {
