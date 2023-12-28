@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import { Hamburger } from "./Hamburger";
 import { routeList } from "./config/routeList";
 
-
 const HeaderStyle = styled.div`
   //background: #282c34;
   background: #61dafb;
@@ -42,6 +41,7 @@ const Logo = styled.div`
   font-size: 4rem;
   letter-spacing: 0.2rem;
   font-family: "Pacifico", cursive;
+  height: 70px;
 `;
 
 const NavStyle = styled.ul`
@@ -79,4 +79,3 @@ export const Header = () => {
     </HeaderStyle>
   );
 };
-
