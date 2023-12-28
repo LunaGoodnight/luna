@@ -20,7 +20,13 @@ const HomeTopStyle = styled.div`
     flex-direction: column;
   }
 `;
+const QuoteText = styled.div`
+  height: 20px;
 
+  @media only screen and (max-width: 850px) {
+    height: auto;
+  }
+`;
 const WrapImage = styled.div`
   width: 600px;
   height: 200px;
@@ -51,7 +57,7 @@ export const HomeTop = () => {
           <WrapImage>
             <img src="https://picsum.photos/600/200" alt="picsum" />
           </WrapImage>
-          <div>{data ? cacheData : null}</div>
+          <QuoteText>{data ? cacheData : null}</QuoteText>
         </ImagePart>
       </HomeTopStyle>
     </Wrapper>
