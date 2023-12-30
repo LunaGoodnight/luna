@@ -136,6 +136,10 @@ export const petLinks = [
     name: "哈寵誌",
     links: "https://www.hotpets.com.tw/",
   },
+  {
+    name: "乖乖吃飯",
+    links: "https://www.yana.tw/",
+  },
 ];
 
 export const householdGoodsLinks = [
