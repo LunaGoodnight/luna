@@ -141,6 +141,12 @@ export const petLinks = [
     links: "https://www.yana.tw/",
   },
 ];
+export const crystalLinks = [
+  {
+    name: "Crystal Digest",
+    links: "https://www.crystaldigest.com/",
+  },
+];
 
 export const householdGoodsLinks = [
   {
@@ -455,4 +461,5 @@ export const textLinks = [
   { title: "香香", list: scentLinks },
   { title: "茶具", list: teaLinks },
   { title: "趨勢", list: trendLinks },
+  { title: "水晶", list: crystalLinks },
 ];
