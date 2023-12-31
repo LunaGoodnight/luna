@@ -426,6 +426,11 @@ export const toyLinks = [
     links: "https://meccha-japan.com/en/",
     description: "Best Japanese Goods from Japan",
   },
+  {
+    name: "日本玩具博物館",
+    links: "https://japan-toy-museum.org/",
+    description: "",
+  },
 ];
 
 // TODO 考慮把網紅清單也加進來
