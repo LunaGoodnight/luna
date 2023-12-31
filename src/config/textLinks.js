@@ -154,6 +154,11 @@ export const householdGoodsLinks = [
     links: "https://www.lifesupplier.com.tw/",
     description: "居家生活用品",
   },
+  {
+    name: "九土",
+    links: "https://www.jotomall.com/",
+    description: "",
+  },
 ];
 
 export const fundLinks = [
