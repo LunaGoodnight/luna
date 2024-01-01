@@ -235,6 +235,13 @@ export const doughnutsLinks = [
   },
 ];
 
+export const eatLinks = [
+  {
+    name: "食力foodNEXT",
+    links: "https://www.foodnext.net/",
+    description: "食事求實的知識頻道",
+  },
+];
 export const cakeLinks = [
   {
     name: "新巧屋烘焙食品行 801",
@@ -442,6 +449,7 @@ export const toyLinks = [
 
 export const textLinks = [
   { title: "吃的", list: foodLinks },
+  { title: "食品探討", list: eatLinks },
   { title: "出版", list: publishLinks },
   { title: "飾品", list: accessoriesLinks },
   { title: "動畫", list: animeLinks },
