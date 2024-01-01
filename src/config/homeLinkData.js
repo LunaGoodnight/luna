@@ -36,6 +36,10 @@ export const homeLinkData = [
         url: "https://www.popdaily.com.tw/",
       },
       {
+        name: "欣傳媒 XINMEDIA 最懂生活的咖",
+        url: "https://www.xinmedia.com/",
+      },
+      {
         name: "LikeJapan",
         url: "https://www.likejapan.com/",
       },
