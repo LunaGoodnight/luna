@@ -432,6 +432,12 @@ export const scentLinks = [
     links: "https://www.scentlibrary.com.tw/",
   },
 ];
+export const escapeLinks = [
+  {
+    name: "聚樂邦 Clubon",
+    links: "https://www.clubon.space/",
+  },
+];
 export const toyLinks = [
   {
     name: "Meccha Japan",
@@ -480,4 +486,5 @@ export const textLinks = [
   { title: "茶具", list: teaLinks },
   { title: "趨勢", list: trendLinks },
   { title: "水晶", list: crystalLinks },
+  { title: "實境逃脫", list: escapeLinks },
 ];
