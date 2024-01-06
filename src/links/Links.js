@@ -3,7 +3,8 @@ import styled from "styled-components";
 import { Link, Route, Routes } from "react-router-dom";
 import { WebsiteShower } from "./WebsiteShower";
 import { animeList } from "../config/linkData";
-import { Home } from "./Home";
+
+import ForestPass from "../styles/images/website/forestpass.webp";
 
 const NavBar = styled.ul`
   width: 10%;
@@ -19,13 +20,24 @@ const LinksWrapper = styled.div`
 `;
 
 const LeftPart = styled.div`
-  //background: pink;
   width: 90%;
   height: 87vh;
   overflow-y: scroll;
 `;
 
-const totalLinks = [{ title: "Anime", list: animeList, path: "anime" }];
+const indexList = [
+  {
+    title: "森林好好玩",
+    link: "https://forestpass.welcometw.com/",
+    image: ForestPass,
+    description: "森林好好玩官方網站-國家森林遊樂區門票",
+  },
+];
+
+const totalLinks = [
+  { title: "Index", list: indexList, path: "" },
+  { title: "Anime", list: animeList, path: "anime" },
+];
 
 export const Links = () => {
   return (
@@ -34,7 +46,7 @@ export const Links = () => {
         {totalLinks.map((it, index) => {
           const { title, path } = it;
           return (
-            <li key={index}>
+            <li key={path}>
               <Link to={path}>{title}</Link>
             </li>
           );
@@ -43,12 +55,11 @@ export const Links = () => {
       <LeftPart>
         <Routes>
           <Route path="/">
-            <Route index element={<Home />} />
             {totalLinks.map((item, ind) => {
               const { path, list } = item;
               return (
                 <Route
-                  key={ind}
+                  key={path}
                   path={path}
                   element={<WebsiteShower list={list} />}
                 />
