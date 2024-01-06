@@ -451,10 +451,18 @@ export const toyLinks = [
   },
 ];
 
+export const dramaLinks = [
+  {
+    name: "劇夠 DRAMAGO",
+    links: "https://dramago.ptsplus.tv/",
+    description: "",
+  },
+];
 // TODO 考慮把網紅清單也加進來
 
 export const textLinks = [
   { title: "吃的", list: foodLinks },
+  { title: "追劇", list: dramaLinks },
   { title: "食品探討", list: eatLinks },
   { title: "出版", list: publishLinks },
   { title: "飾品", list: accessoriesLinks },
