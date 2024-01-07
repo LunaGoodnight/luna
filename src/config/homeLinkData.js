@@ -32,6 +32,10 @@ export const homeLinkData = [
         url: "https://natalie.mu/",
       },
       {
+        name: "アニメハック",
+        url: "https://anime.eiga.com/",
+      },
+      {
         name: "PopDaily 波波黛莉",
         url: "https://www.popdaily.com.tw/",
       },
