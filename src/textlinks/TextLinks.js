@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useMemo } from "react";
 import styled from "styled-components";
 import { textLinks } from "../config/textLinks";
 
@@ -37,9 +37,15 @@ const LinkSectionBlocks = styled.div`
 `;
 
 export const TextLinks = () => {
+  const sortedLengthList = useMemo(() => {
+    const newList = textLinks.slice();
+
+    newList.sort((a, b) => a.list.length - b.list.length);
+    return newList;
+  }, [textLinks]);
   return (
     <Wrapper>
-      {textLinks.map(({ title, list }, index) => {
+      {sortedLengthList.map(({ title, list }, index) => {
         return (
           <LinkSectionBlocks key={index}>
             <Title>{title}</Title>

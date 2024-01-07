@@ -458,10 +458,19 @@ export const dramaLinks = [
     description: "",
   },
 ];
+
+export const childrenToysLinks = [
+  {
+    name: "MNTL磁力片",
+    links: "https://www.mntltw.com/",
+    description: "",
+  },
+];
 // TODO 考慮把網紅清單也加進來
 
 export const textLinks = [
   { title: "吃的", list: foodLinks },
+  { title: "小孩玩的 ", list: childrenToysLinks },
   { title: "追劇", list: dramaLinks },
   { title: "食品探討", list: eatLinks },
   { title: "出版", list: publishLinks },
