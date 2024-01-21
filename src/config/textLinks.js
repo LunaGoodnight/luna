@@ -172,6 +172,19 @@ export const fundLinks = [
   },
 ];
 
+export const romanceLinks = [
+  {
+    name: "米月療心工坊",
+    links: "https://purpleme.boostime.me/",
+  },
+];
+export const musicLinks = [
+  {
+    name: "音樂城市樂器",
+    links: "https://pangolinmusic.com/",
+  },
+];
+
 export const presentLinks = [
   {
     name: "波希熊",
@@ -497,6 +510,8 @@ export const textLinks = [
   { title: "酒酒", list: wineLinks },
   { title: "生活品味", list: lifeStyleLinks },
   { title: "生活用品", list: householdGoodsLinks },
+  { title: "浪漫", list: romanceLinks },
+  { title: "音樂", list: musicLinks },
   { title: "集資", list: fundLinks },
   { title: "新聞", list: newsLinks },
   { title: "香香", list: scentLinks },
