@@ -468,6 +468,13 @@ export const toyLinks = [
   },
 ];
 
+export const hikingLinks = [
+  {
+    name: "台灣山林悠遊網",
+    links: "https://recreation.forest.gov.tw/",
+  },
+];
+
 export const dramaLinks = [
   {
     name: "劇夠 DRAMAGO",
@@ -520,6 +527,7 @@ export const textLinks = [
   { title: "新聞", list: newsLinks },
   { title: "香香", list: scentLinks },
   { title: "茶具", list: teaLinks },
+  { title: "健行", list: hikingLinks },
   { title: "趨勢", list: trendLinks },
   { title: "水晶", list: crystalLinks },
   { title: "實境逃脫", list: escapeLinks },
