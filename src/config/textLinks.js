@@ -344,6 +344,11 @@ export const boardGameLinks = [
     links: "https://boardgamegeek.com/",
     description: "Gaming Unplugged Since 2000",
   },
+  {
+    name: "國高紙品股份有限公司",
+    links: "https://www.kkplayingcard.com/zh-tw",
+    description: "",
+  },
 ];
 export const newsLinks = [
   {
