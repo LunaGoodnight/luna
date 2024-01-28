@@ -349,6 +349,11 @@ export const boardGameLinks = [
     links: "https://www.kkplayingcard.com/zh-tw",
     description: "",
   },
+  {
+    name: "SWAN PANASIA 新天鵝堡桌上遊戲",
+    links: "https://www.swanpanasia.com/",
+    description: "",
+  },
 ];
 export const newsLinks = [
   {
