@@ -354,6 +354,11 @@ export const boardGameLinks = [
     links: "https://www.swanpanasia.com/",
     description: "",
   },
+  {
+    name: "嘟嘟嘴線上購物",
+    links: "https://www.duduzui.com/",
+    description: "Duduzui 泓育國際",
+  },
 ];
 export const newsLinks = [
   {

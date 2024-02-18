@@ -49,7 +49,12 @@ export const HomeTop = () => {
     fetch("https://type.fit/api/quotes").then((res) => res.json())
   );
   const cacheData = useMemo(() => getQuote(data), [data]);
-
+  const { activities } = useQuery("quotes", () =>
+    fetch("https://catsheue-001-site4.atempurl.com/api/Activities").then(
+      (res) => res.json()
+    )
+  );
+  console.log({ activities });
   return (
     <Wrapper>
       <HomeTopStyle>
