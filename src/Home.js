@@ -15,7 +15,7 @@ export const Home = () => {
     <HomeStyle>
       <HomeTop />
       <HomeCenter />
-      <HomeFooter />
+
     </HomeStyle>
   );
 };
