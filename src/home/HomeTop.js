@@ -51,7 +51,7 @@ const quoteList = [
 
 const getQuote = (data) => {
   if (data) {
-    return data[getRandomInt(data.length)].text;
+    return data[getRandomInt(data.length)];
   }
   return null;
 };
