@@ -1,9 +1,7 @@
 import React, { useMemo } from "react";
 import styled from "styled-components";
 import { getRandomInt } from "../utils/getRandomInt";
-
 import { useQuery } from "react-query";
-import { MoneyPart } from "./MoneyPart";
 
 const Wrapper = styled.div`
   border-bottom: 1px solid aquamarine;
@@ -49,12 +47,7 @@ export const HomeTop = () => {
     fetch("https://type.fit/api/quotes").then((res) => res.json())
   );
   const cacheData = useMemo(() => getQuote(data), [data]);
-  const { activities } = useQuery("act", () =>
-    fetch("https://catsheue-001-site4.atempurl.com/api/Activities", {
-      method: "GET",
-    }).then((res) => res.json())
-  );
-  console.log({ activities });
+
   return (
     <Wrapper>
       <HomeTopStyle>
